@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo App</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- stylesheet-files -->
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/customeStylesheet.css">
+</head>
+<body>
+    <!-- absolute-div -->
+    <div class="row r" id="op">
+        <div class="col m4 s2 abs "></div>
+        <div class="col m4 s8 abss " id="output">
+            <p id="message"></p>
+            <button class="center   custo" onclick="fun();" id="btn5">
+                <b>OK</b>
+            </button>
+        </div>
+        <div class="col m4 s2 abs"></div>
+    </div>
+<!-- nav -->
+<div class="row teal">
+
+
+    <div class="col m2  l3 s1"></div>
+    <div class="col m8 s10 l6 center ">
+        <div class="row">
+            <div class="col m3 s3 n1 waves-effect waves-lighten-2" id="create">
+                <a href="#">Create Todo</a>
+            </div>
+            <div class="col m3 s3 n1 waves-effect waves-lighten-2" id="all"><a href="#">All Todo</a></div>
+            <div class="col m3 s3 n1 waves-effect waves-lighten-2 " id="day"><a href="#">My Day</a></div>
+            <div class="col m3 s3 n22" id="notification">
+                <!-- Dropdown Trigger -->
+                <a href="notification.html"> <i class="fas fa-bell i1"></i></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="col m2  l3 s1"></div>
+
+</div>
+
+
+
+
+
+    <div class="row ">
+<div class="col m2 l3 s1">
+   
+</div>
+<div class="col m8 l6 s10">
+    <div class="row ">
+        <div class="col s1"></div>
+        <div class="col m12 s10">
+            <h3 class="h2">Create Todo</h3>
+            </div>
+            <div class="col s1"></div>
+            </div>
+            <div class="row">
+                <form action="alltodos.html" method="POST" onsubmit="return check();">
+                <div class=" col m1 s1"></div>
+                    <div class="col m10 s10">
+                      <label for="tittle" class="title">Your Tittle</label>
+                        <input type="text" class="text" id="title" placeholder="Your Tittle">
+                    </div>
+                    <div class="col m1 s1"></div>
+              
+            </div>
+        
+   
+    
+        <!-- description -->
+            <div class="row">
+                <div class=" col m1 s1"></div>
+                <div class="col m10 s10">
+                    <label for="Description" class="Description">Description</label>
+                    <input type="text" class="text" id="description" placeholder="Description">
+                </div>
+                <div class="col m1 s1"></div>
+        </div>
+        <!-- add location -->
+        <div class="row">
+            <div class=" col m1 s1"></div>
+            <div class="col m10 s10">
+                <label for="Description" class="Description">Location</label>
+                <input type="text" class="text" id="location" placeholder="Location">
+            </div>
+            <div class="col m1 s1"></div>
+        </div>
+        <!-- date -->
+        <div class="row">
+            <div class=" col m1 s1"></div>
+            <div class="col m10 s10">
+                <label for="Description" class="Description">Due Date</label>
+                <input type="date" class="text" id="date" placeholder="Description">
+            </div>
+            <div class="col m1 s1"></div>
+        </div>
+        <!-- addtodo-button -->
+        <div class="row">
+            <div class=" col m1 s1"></div>
+            <div class="col m10 s10">
+                <button id="addtodo" type="submit" class="btn1 waves-effect waves-lighten-2 submitbutton">Add Todo</button>
+            </div>
+            <div class="col m1 s1"></div>
+        </div>
+        </div>
+        <div class="col m2 l3 s1"></div>
+        </div>
+    </div>
+
+
+    </div>
+    <!-- javascript-files -->
+    <script src="javascript/materialize.js"></script>
+    <script src="javascript/custome.js"></script>
+    <script src="javascript/index.js"></script>
+</body>
+</html>

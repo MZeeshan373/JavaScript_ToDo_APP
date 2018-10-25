@@ -1,0 +1,251 @@
+/* index */
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.home{
+    height: auto;
+    width: 100%;
+    background: teal;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.h2{
+    text-align: center;
+    margin-bottom: 50px !important;
+    margin-top: 20px !important
+}
+.text{
+    width: 100%;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.title{
+  
+    font-size: 20px !important;
+    color: teal;
+}
+.Description{
+   
+    font-size: 20px !important;
+    color: teal;
+
+}
+.btn1{
+    background: teal;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 100%;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px !important;
+    cursor: pointer;
+    color: white;
+}
+.p1{
+    padding-left: 30px !important;
+    color: white;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 20px;
+
+}
+.checkpox{
+    width: 10px !important;
+    height: 10px !important;
+}
+/* navbar */
+.b1{
+margin: 0;
+padding: 0;
+}
+.n1{
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+ 
+}
+.n1 a{
+    color: white;
+}
+.n1:hover{
+    background: #484e57;
+    cursor: pointer;
+}
+.n22{
+        padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+.submitbutton{
+    margin-bottom: 20px !important;
+}
+/* alltodos */
+.show{
+    margin-top: 50px !important;
+    padding-bottom: 70px !important;
+    border-bottom: 1px solid #9a9da1;
+}
+.showw{
+       margin-top: 50px !important;
+    padding-bottom: 70px !important;
+}
+.h3{
+    margin-top: 30px !important;
+   
+}
+.hov:hover{
+    background: red;
+}
+
+/* craeting div usiing DOM */
+.style{
+    margin: 10px 0 10px 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    height: 60px !important;
+    /* cursor: pointer; */
+}
+.stylee{
+    margin: 10px 0 10px 0 !important;
+    padding-top: 16px !important;
+    padding-bottom: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    height: 60px !important;
+}
+.custombutton{
+   
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+   height: 40px !important;
+    margin-left: 10px !important;
+    background: #736b6bf5;
+   
+}
+.paragraph{
+    margin-top: 7px !important;
+    display: inline;
+    color: white;
+}
+/* detail todo */
+.tit{
+    padding-left: 20px !important;
+    color: white;
+    margin-top: 10px !important;
+}
+.show-title{
+    padding-left: 20px !important;
+    color: black;
+    font-size: 20px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.boeder-b{
+    border-bottom: 1px solid white;
+    background: teal;
+}
+.last-div{
+    margin-bottom: 30px !important;
+}
+#done{
+    margin-right: 20px !important;
+    padding: 0px 15px 0px 15px !important;
+}
+.last-b{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+/* btnDiv */
+.btnDiv{
+    width: 77%;
+    margin: 0 !important;
+    float: left;
+    height: 50px;
+    padding-top: 7px !important;
+
+    cursor: pointer;
+}
+@media(max-width : 1360px){
+    .btnDiv {
+    width: 45%;
+}
+}
+
+
+
+
+/* absolute div */
+.r{
+    position: absolute !important;
+    margin: 200px 0 0 0 !important;
+    width: 100% !important;
+   height: 200px;
+   visibility: hidden;
+    
+}
+.abs{
+    background: none !important;
+}
+.abss{
+
+    margin: 100px 0 0 px !important; 
+    background: rgba(150, 152, 153, 0.979);
+    height: 200px;
+    text-align: center !important;
+    font-size: 12pt;
+    font-weight: 900;
+    padding: 60px 0 0 0 !important;
+}
+.show2{
+     position: absolute !important;
+    margin: 250px 0 0 0 !important;
+    width: 100% !important;
+    visibility: visible !important;
+    color: black;
+    font-size: 14pt;
+}
+.custo{
+    width: 30% !important;
+    height: auto !important;
+/* visibility: hidden !important; */
+margin-top: 30px !important;
+background: black;
+color: white;
+font-size: 12pt;
+border: none;
+padding-top: 10px !important;
+padding-bottom: 10px !important;
+
+}
+
+.hidden{
+   visibility: hidden ;
+}
+/* myday */
+.showmuday{
+    margin-top: 50px !important;
+    padding-bottom: 70px !important;
+   
+}
+/* fontawsome */
+.i1{
+    color: white ;
+   font-size: 20px !important;
+    margin-top: 3px !important;
+  
+}
+
+
+
